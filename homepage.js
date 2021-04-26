@@ -2,6 +2,7 @@
 let todayDate = moment().format('dddd, MMM Do YYYY');
 $("#currentDay").html(todayDate);
 
+
 // Use moment to for time format
 
 // Use JQuery to grab values of description
