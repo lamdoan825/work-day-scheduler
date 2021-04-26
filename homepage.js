@@ -26,8 +26,13 @@ $(document).ready(function () {
   $("#hour17 .description").val(localStorage.getItem("hour17"));
   
   function timeTracker() {
-    //get current number of hours.
+    // get current number of hours.
     var timeNow = moment().hour();
+
+    // time block loop
+    $(".time-block").each(function () {
+      var blockTime = parseInt($(this).attr("id").split("hour")[1]);
+    })
     
   }  
   timeTracker();
