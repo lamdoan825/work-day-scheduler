@@ -1,6 +1,6 @@
 // Display date and time
-let todayDate = moment().format('dddd, MMM Do YYYY');
-$("#currentDay").html(todayDate);
+var day = moment().format("llll");
+$("#currentDay").append(day);
 
 
 // Use moment to for time format
